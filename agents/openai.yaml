@@ -1,0 +1,13 @@
+interface:
+  display_name: 敦煌藻井 · 深青穹顶
+  short_description: 延续深青穹顶的敦煌网页风格，保留原稿并建立结构鲜明的纹样差异
+  default_prompt: 使用 $design-dunhuang-vault-websites 设计网页，沿用深青穹顶的构图与壁画质感，并让不同方案的纹样结构有明显差别。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
