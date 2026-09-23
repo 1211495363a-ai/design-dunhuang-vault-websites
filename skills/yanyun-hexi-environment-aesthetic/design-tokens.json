@@ -1,0 +1,52 @@
+{
+  "name": "Yanyun Hexi Environment Aesthetic",
+  "scope": "environment-only",
+  "exclusions": [
+    "characters",
+    "riders",
+    "hero silhouettes",
+    "weapons",
+    "combat",
+    "game HUD",
+    "quest UI",
+    "MMO promotional composition"
+  ],
+  "composition_weights": {
+    "hexi_landscape": 0.40,
+    "frontier_architecture_ruins": 0.25,
+    "grotto_mural_art": 0.15,
+    "silk_road_patterns": 0.10,
+    "weathered_materials": 0.10
+  },
+  "colors": {
+    "sand_gold": "#C79A5B",
+    "earth_yellow": "#B7834E",
+    "ochre": "#9B543C",
+    "cinnabar_red": "#A84532",
+    "mineral_green": "#527D70",
+    "lapis_blue": "#354E72",
+    "dust_blue": "#65717A",
+    "dry_brown": "#6E5543",
+    "parchment": "#E7D7B9",
+    "stone_gray": "#8A8276",
+    "ink_black": "#302B26"
+  },
+  "color_ratio": {
+    "earth_warm": 0.60,
+    "neutral": 0.25,
+    "cool_mineral_accents": 0.10,
+    "high_contrast_anchors": 0.05
+  },
+  "motifs": {
+    "landscape": ["gobi", "yardang", "dry river valley", "oasis edge", "dunes", "distant mountains"],
+    "architecture": ["rammed earth walls", "frontier fort", "beacon tower", "pass", "grotto cliff", "ancient relay station", "ruined tower"],
+    "patterns": ["cloud motif", "lotus petal", "honeysuckle", "geometric border", "coffered ceiling geometry", "scroll motif"],
+    "materials": ["windblown sand", "weathered rock", "cracked rammed earth", "flaking mural pigment", "aged wood", "old paper", "faded textile"]
+  },
+  "layout": {
+    "whitespace_min": 0.20,
+    "whitespace_preferred_max": 0.35,
+    "pattern_density": "low-to-medium",
+    "priority": ["space", "landform", "ruins", "light", "material", "pattern"]
+  }
+}
