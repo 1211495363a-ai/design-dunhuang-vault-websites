@@ -1,0 +1,34 @@
+{
+  "name": "design-yanyun-hexi-environment-aesthetic",
+  "version": "1.0.0",
+  "principle": "河西空间为主体，文明遗痕为结构，矿物色为装饰，风沙与时间为材质。",
+  "palette": {
+    "sand-100": "#E7D2A8",
+    "sand-300": "#CDA66E",
+    "ochre-500": "#A9763E",
+    "umber-600": "#73503A",
+    "cinnabar-500": "#A74E3C",
+    "mineral-green-500": "#557C70",
+    "lapis-600": "#405A74",
+    "stone-500": "#847C70",
+    "ink-800": "#2F2B27",
+    "paper-50": "#F3E8D1"
+  },
+  "colorRatios": {
+    "earthWarm": "55-65%",
+    "neutral": "20-30%",
+    "coolMineralAccent": "8-12%",
+    "darkOrCinnabarAccent": "3-8%"
+  },
+  "composition": {
+    "lowInformationSpace": "25-40%",
+    "environmentPriority": ["space", "landform", "ruins", "light", "material", "motif", "textDecoration"]
+  },
+  "motifs": {
+    "primary": ["geometric border", "coiled cloud", "caisson hierarchy", "simplified scrollwork"],
+    "secondary": ["lotus petal", "honeysuckle", "small deer/bird fragment", "mural remnant"],
+    "rule": "one primary motif system plus one secondary motif system maximum"
+  },
+  "materials": ["windblown sand", "eroded stone strata", "rammed earth", "powdery mural pigment", "aged wood", "handmade paper", "faded textile"],
+  "forbiddenByDefault": ["human figure", "human silhouette", "mounted rider", "character card", "weapon focus", "combat", "game UI", "quest marker", "skill icon", "level badge", "RPG promotional composition"]
+}
